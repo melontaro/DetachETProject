@@ -1,4 +1,4 @@
-# DetachProject
+# DetachETProject
 
 #### 修改配置文件congfig.json,将里边的 RootPath定位到ET目录下的Server目录!!!!
  "RootPath": "C:\\Workspace\\VisualStudio\\ET\\Server"
