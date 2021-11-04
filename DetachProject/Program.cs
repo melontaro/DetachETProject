@@ -106,9 +106,24 @@ namespace DetachProject
                                 }
                             }
 
+
                         }
+
+                        for (int l = 0; l < xnode3.Count; l++)
+                        {
+                            if (xnode3?.Item(l).OuterXml.Contains("Unity") == true)
+                            {
+                                node1.RemoveAll();
+                                break;
+                            }
+
+                        }
+
                     }
                 }
+
+                var xmlPath = Path.Combine(filedir[i]);
+                doc.Save(xmlPath);
             }
         }
 
