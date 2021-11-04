@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NIMRk5Zmeu7YDA+nIgm2BTJt1Y1d34NIKYVumKPf/zAcTLxqeP84JMLa0COxeoTouEU8nn8YOTLaOxxxoKAsnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\VisualStudio\\DetachProject\\DetachProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

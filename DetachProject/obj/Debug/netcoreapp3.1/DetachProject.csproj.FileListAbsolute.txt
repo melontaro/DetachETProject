@@ -1,0 +1,17 @@
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\DetachProject.exe
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\config.json
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\DetachProject.deps.json
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\DetachProject.runtimeconfig.json
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\DetachProject.runtimeconfig.dev.json
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\DetachProject.dll
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\DetachProject.pdb
+C:\Workspace\VisualStudio\DetachProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.csproj.AssemblyReference.cache
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.AssemblyInfoInputs.cache
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.AssemblyInfo.cs
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.csproj.CoreCompileInputs.cache
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.csproj.CopyComplete
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.dll
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.pdb
+C:\Workspace\VisualStudio\DetachProject\obj\Debug\netcoreapp3.1\DetachProject.genruntimeconfig.cache
