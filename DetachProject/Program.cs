@@ -100,9 +100,6 @@ namespace DetachProject
 
                                         }
                                     }
-
-
-
                                 }
                             }
 
@@ -125,6 +122,9 @@ namespace DetachProject
                 var xmlPath = Path.Combine(filedir[i]);
                 doc.Save(xmlPath);
             }
+
+            Console.WriteLine("完成!按任意键关闭此窗口.");
+            Console.ReadKey();
         }
 
         public static string Readjson(string jsonfile, string key)
