@@ -1,0 +1,12 @@
+C:\GitWorkSpace\DetachProject\DetachWindow\bin\Debug\DetachWindow.exe.config
+C:\GitWorkSpace\DetachProject\DetachWindow\bin\Debug\DetachWindow.exe
+C:\GitWorkSpace\DetachProject\DetachWindow\bin\Debug\DetachWindow.pdb
+C:\GitWorkSpace\DetachProject\DetachWindow\bin\Debug\Newtonsoft.Json.xml
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.csproj.AssemblyReference.cache
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.DetachWindow.resources
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.Properties.Resources.resources
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.csproj.GenerateResource.cache
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.csproj.CoreCompileInputs.cache
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.csproj.CopyComplete
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.exe
+C:\GitWorkSpace\DetachProject\DetachWindow\obj\Debug\DetachWindow.pdb
