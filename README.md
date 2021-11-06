@@ -1,6 +1,7 @@
 # DetachETProject
 #### 运行DetachProject.exe;
-
+点击相应操作:
+![This is an image](/tmp/Snipaste0.png)
 
 #### 已经可以正常使用Server了,打开server解决方案,重新编译即可;
 
