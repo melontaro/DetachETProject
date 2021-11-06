@@ -52,5 +52,49 @@ namespace DetachWindow
         {
             toolTip1.SetToolTip(btnLinkToBD, "此操作前,请先将BDFramework.Core项目复制到ET目录下!");
         }
+
+        private void btnLinkToBD_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(folderBrowserDialog.SelectedPath))
+            {
+                MessageBox.Show("请先选择ET目录");
+                return;
+            }
+            string UnityETPath = Path.Combine(folderBrowserDialog.SelectedPath, "Unity");
+            string UnityBDPath = Path.Combine(folderBrowserDialog.SelectedPath, "BDFramework.Core");
+
+            //copy Model Directory
+            DirectoryInfo etModelPath = new DirectoryInfo(Path.Combine(UnityBDPath, @"Assets\ET\Model"));
+            if (!etModelPath.Exists)
+            {
+                Directory.CreateDirectory(etModelPath.FullName);
+            }
+
+            if (!Helper.DirectoryCopy(Path.Combine(UnityETPath, @"Assets\Model"),
+                Path.Combine(UnityBDPath, @"Assets\ET\Model")))
+            {
+                return;
+            }
+
+            ;  //copy Hotfix Directory
+            DirectoryInfo etHotfixPath = new DirectoryInfo(Path.Combine(UnityBDPath, @"Assets\ET\@hotfix"));
+            if (!etHotfixPath.Exists)
+            {
+                Directory.CreateDirectory(etHotfixPath.FullName);
+            }
+
+            if (!Helper.DirectoryCopy(Path.Combine(UnityETPath, @"Assets\Hotfix"),
+                Path.Combine(UnityBDPath, @"Assets\ET\@hotfix")))
+            {
+                return;
+            }
+
+            Helper.Detach4BD(folderBrowserDialog.SelectedPath);
+            var dialogResult = MessageBox.Show("是否打开文件夹!", "完成!", MessageBoxButtons.OKCancel);
+            if (dialogResult == DialogResult.OK)
+            {
+                System.Diagnostics.Process.Start("explorer.exe", folderBrowserDialog.SelectedPath + @"\");
+            }
+        }
     }
 }

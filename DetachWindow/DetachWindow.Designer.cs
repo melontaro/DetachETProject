@@ -74,6 +74,7 @@ namespace DetachWindow
             this.btnLinkToBD.TabIndex = 3;
             this.btnLinkToBD.Text = "建立新引用(BDClient)";
             this.btnLinkToBD.UseVisualStyleBackColor = true;
+            this.btnLinkToBD.Click += new System.EventHandler(this.btnLinkToBD_Click);
             this.btnLinkToBD.MouseHover += new System.EventHandler(this.button2_MouseHover);
             // 
             // button3
