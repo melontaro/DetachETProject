@@ -89,6 +89,21 @@ namespace DetachWindow
                 return;
             }
 
+
+            ;  //copy Hotfix Directory
+            DirectoryInfo etThirdPartyPath = new DirectoryInfo(Path.Combine(UnityBDPath, @"Assets\ET\ThirdParty"));
+            if (!etThirdPartyPath.Exists)
+            {
+                Directory.CreateDirectory(etThirdPartyPath.FullName);
+            }
+
+            if (!Helper.DirectoryCopy(Path.Combine(UnityETPath, @"Assets\ThirdParty"),
+                Path.Combine(UnityBDPath, @"Assets\ET\ThirdParty")))
+            {
+                return;
+            }
+            //plugins目录手动甄别复制吧
+
             Helper.Detach4BD(folderBrowserDialog.SelectedPath);
             var dialogResult = MessageBox.Show("是否打开文件夹!", "完成!", MessageBoxButtons.OKCancel);
             if (dialogResult == DialogResult.OK)

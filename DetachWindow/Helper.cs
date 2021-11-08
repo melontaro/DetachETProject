@@ -187,6 +187,14 @@ namespace DetachWindow
                                             unityPath = unityPath.Replace(@"Unity\Assets\Hotfix", @"BDFramework.Core\Assets\ET\@hotfix");
                                         }
 
+                                        if (unityPath.Contains(@"Unity\Assets\ThirdParty"))
+                                        {
+                                            unityPath = unityPath.Replace(@"Unity\Assets\ThirdParty", @"BDFramework.Core\Assets\ET\ThirdParty");
+                                        }
+                                        if (unityPath.Contains(@"Unity\Assets\Plugins"))
+                                        {
+                                            unityPath = unityPath.Replace(@"Unity\Assets\Plugins", @"BDFramework.Core\Assets\Plugins");
+                                        }
                                         attributes[0].Value = unityPath;
 
 
@@ -218,7 +226,14 @@ namespace DetachWindow
                                             {
                                                 unityPath = unityPath.Replace(@"Unity\Assets\Hotfix", @"BDFramework.Core\Assets\ET\@hotfix");
                                             }
-
+                                            if (unityPath.Contains(@"Unity\Assets\ThirdParty"))
+                                            {
+                                                unityPath = unityPath.Replace(@"Unity\Assets\ThirdParty", @"BDFramework.Core\Assets\ET\ThirdParty");
+                                            }
+                                            if (unityPath.Contains(@"Unity\Assets\Plugins"))
+                                            {
+                                                unityPath = unityPath.Replace(@"Unity\Assets\Plugins", @"BDFramework.Core\Assets\Plugins");
+                                            }
                                             attributes[m].InnerText = unityPath;
 
                                         }
